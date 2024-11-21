@@ -1,0 +1,51 @@
+.button1 {
+    width: 100%;
+    padding: 20px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button1:active {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button2 {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgray; 
+    color: darkblue; 
+    border: 2px dashed #FF5733;
+}
+
+.button2:hover {
+    background-color: #FF5733;
+    color: white;
+}
+.bio{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.about-me{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*---------------------------*/
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+}
