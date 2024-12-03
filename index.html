@@ -1,26 +1,44 @@
-<!-- Tomas Armalis EAf-23 -->
 <!DOCTYPE html>
 <html lang="lt">
 <head>
     <meta charset="UTF-8">
-    <title>Tinklalapis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomces</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <header>
-        <h1>Tomas Armalis</h1>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">T.A.</div>
+        <nav class="menu">
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#work" class="nav-link">Work</a>
+            <a href="#services" class="nav-link">Services</a>
+            <div class="dropdown">
+                <button class="dropbtn">Contact 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href= https://www.facebook.com>FaceBook</a>
+                  <a href=https://www.linkedin.com//>LinkedIn</a>
+                  <a href="#footer">More</a>
+                </div>
+              </div> 
+        </nav>
     </header>
-    <main>
-        <div class="bio">
-            <button class = "button1"> BIO </button>
-            <p>PLC Programmer | Student</p>
-        </div>
-        <section class="about-me">
-            <button class = "button2"> About me:</button>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>I'm Tomas Armalis.<br>PLC Programmer | Student<br>based in Lithuania.</h1>
             <p>I'm driven by curiosity and a love for precision. With experience teaching robotics and mechatronics, I've learned patience and how to explain complex ideas simply. One highlight was leading a project that placed 4th in the "Robotex" competition.</p>
-        </section>
-        <section id="experience">
-            <h2>Experience:</h2>
+        </div>
+        <div class="hero-image">
+            <img src="fake.png" alt="as">
+        </div>
+    </section>
+    <main>
+        <section id = "experience">
+            <h2>Experience: </h2>
             <img src="schema.jpg" alt="Electrical schema" />
         </section>
         <section id="services">
@@ -42,8 +60,22 @@
             </audio>
         </section>
         <section class = "light-theme">
-            <button id = "themeToggle">Tamsus</button>
+            <button id = "themeToggle">Dark Theme</button>
+            
         </section>
+
+        <button id="scrollToTopBtn">↑ Top</button>
+
+        <footer>
+            <section id = "footer"></section>
+            <p>Page Author: Tomas Armalis</p>
+            <p><a href="tom@gmail.com">tom@gmail.com</a></p>
+            <div class="social-icons">
+                <a href="https://facebook.com/" target="_blank" aria-label="Facebook">
+                    <img src="facebook-icon.png" alt="Facebook Icon" class="social-icon">
+                </a>
+            </div>
+        </footer>
     </main>
 </body>
 <script src="script2.js"></script>
