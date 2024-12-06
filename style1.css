@@ -35,7 +35,7 @@ body.dark-theme {
   background-color: #3b25a3;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -149,7 +149,9 @@ body.dark-theme {
   border-radius: 10px;
 }
 
-/* Footer Section */
+.work{
+  align-items: center;
+}
 footer {
   text-align: center;
   padding: 10px;
@@ -160,7 +162,7 @@ footer {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #1b1b1b;
+  background-color: #727074;
   color: white;
   line-height: 1.6;
 }
