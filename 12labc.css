@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4c664d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.green {
+    color: green;
+}
